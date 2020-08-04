@@ -1,0 +1,56 @@
+The starting screen should have a button that users can click to start the quiz.
+  -click button labelled "Start" to begin quiz questions
+Users should be prompted through a series of at least 5 multiple choice
+questions that they can answer.
+  -questions styling
+  -answers a-d for said question
+
+Users should be asked questions 1 after the other.
+  -button to click labelled "Next" to progress through questions until
+   last/the end
+
+Users should only be prompted with 1 question at a time.
+  -have one question per page
+
+Users should not be able to skip questions.
+  -no other buttons besides Next and The End buttons
+
+Users should also be able to see which question they're on (for instance, "7
+out of 10") and their current score ("5 correct, 2 incorrect").
+
+Upon submitting an answer, users should:
+receive textual feedback about their answer. If they were incorrect, they
+should be told the correct answer.
+
+be moved onto the next question (or interact with an element to move on).
+
+Users should be shown their overall score at the end of the quiz. In other
+words, how many questions they got right out of the total questions asked.
+
+Users should be able to start a new quiz.
+
+wireframe notes:
+intro screen has caduceus chakras img and space background, quiz title,
+"begin" button
+
+question screen has chakra mandala top middle or as 50%ish opacity background
+for question
+
+correct answer screen has body location image centered (with chakra symbol
+super imposed?)
+
+wrong answer screen has body location image centered (with chakra symbol
+super imposed?)
+
+on the question screen, when the user is holding the mouse down, the chakra
+mandala produces endlessly. so if the user drags their mouse our finger cross
+the screen, it leaves a trail of mandalas
+
+coding ideas:
+math.random the first array probably to randomize the question sequence
+each answer set is transitioned from one array before it's called to a
+different array after it's been displayed
+potentially: the next screen is a larger display of the chakra mandala with
+each of the possible answer sets in list form in each corner of the img with
+the correct answer set larger than the others with a phrase for true or false
+displayed

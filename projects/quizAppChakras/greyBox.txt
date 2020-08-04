@@ -1,0 +1,78 @@
+Start Screen
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header> Chakra Quiz </header>
+    <img src = >
+    <button>begin</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+Question Screen
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <img src = >
+    <header> Quiz Question </header>
+    <span>correct: </span>
+    <div>
+      <span> Answer option 1 </span>
+      <span> Answer option 2 </span>
+      <span> Answer option 3 </span>
+      <span> Answer option 4 </span>
+    </div>
+    <span> complete: </span>
+    <button>next</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+Answer Screen
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <h1>Correct! Nope!</h1>
+     <div><img src = ></div>
+    
+    <button>next</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+End Screen
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+     <h1>Congratulations!</h1>
+     <p> You made it to the end!</p>
+     <p> Your score was: </p>
+     <div><img src = ></div>
+    <button>begin again</button>
+    <script src="script.js"></script>
+  </body>
+</html>
