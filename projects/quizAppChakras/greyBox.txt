@@ -8,7 +8,9 @@ Start Screen
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header> Chakra Quiz </header>
+    <header> 
+	<h1>Chakra Quiz </h1>
+    </header>
     <img src = >
     <button>begin</button>
     <script src="script.js"></script>
@@ -25,9 +27,11 @@ Question Screen
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-     <img src = >
-    <header> Quiz Question </header>
+    <header> 
+	<h1>Quiz Question </h1>
+    </header>
     <span>correct: </span>
+    <img src = >
     <div>
       <span> Answer option 1 </span>
       <span> Answer option 2 </span>
@@ -50,7 +54,9 @@ Answer Screen
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-     <h1>Correct! Nope!</h1>
+     <header>
+	<h1>Correct! Nope!</h1>
+     </header>
      <div><img src = ></div>
     
     <button>next</button>
@@ -68,7 +74,9 @@ End Screen
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-     <h1>Congratulations!</h1>
+     <header>
+	<h1>Congratulations!</h1>
+     </header>
      <p> You made it to the end!</p>
      <p> Your score was: </p>
      <div><img src = ></div>
